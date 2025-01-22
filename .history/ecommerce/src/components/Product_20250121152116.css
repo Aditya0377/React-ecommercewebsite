@@ -1,0 +1,15 @@
+/* .pardiv{
+    /* display: flex; */
+
+
+
+.cards{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.card{
+    width: 25%;
+}

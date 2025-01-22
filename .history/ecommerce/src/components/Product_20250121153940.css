@@ -1,0 +1,35 @@
+ .pardiv{
+ width: 80%;
+ margin: auto;
+
+}
+ 
+/* .cards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+.card{
+    width: 25%;
+    border: 1px solid black;
+
+}  */
+ .cards{
+    width: 99%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:auto auto auto  ;
+    gap: 60px;
+    /* border: 1px solid black; */
+    
+    
+ }
+ .card ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+ }
+ 

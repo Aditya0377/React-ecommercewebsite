@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkcyan;
+}
+.menu ul {
+    list-style: none;
+}

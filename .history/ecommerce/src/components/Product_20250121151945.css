@@ -1,0 +1,13 @@
+.pardiv{
+    /* display: flex; */
+}
+
+
+
+
+.cards{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

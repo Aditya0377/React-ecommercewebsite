@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkcyan;
+}
+.menu ul {
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}

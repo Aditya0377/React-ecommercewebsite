@@ -1,0 +1,8 @@
+.footer{
+    display: flex;
+    background-color: rgb(34,46,62);
+}
+.info{
+    display: flex;
+    justify-content: spa;
+}

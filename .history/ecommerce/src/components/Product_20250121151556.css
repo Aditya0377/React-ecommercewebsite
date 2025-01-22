@@ -1,0 +1,11 @@
+.pardiv{
+    display: flex;
+}
+
+
+
+
+.cards{
+    display: flex;
+    border: 1px solid black;
+}
