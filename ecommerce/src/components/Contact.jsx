@@ -44,6 +44,7 @@ import React, { useState } from 'react';
 import "./Contact.css";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import Footer from './Footer';
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -71,17 +72,18 @@ const Contact = () => {
     };
 
     return (
-        <div className='paradiv'>
-            <form className='contact' onSubmit={formSubmit}>
-                <label>Name:</label>
-                <input
-                    type='text'
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    required
-                /><br />
+        <>
+            <div className='paradiv'>
+                <form className='contact' onSubmit={formSubmit}>
+                    <label>Name:</label>
+                    <input
+                        type='text'
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        required
+                    /><br />
 
-                {/* <label>Email:</label>
+                    {/* <label>Email:</label>
                 <input
                     type='email'
                     value={email}
@@ -97,9 +99,12 @@ const Contact = () => {
                     required
                 /><br /> */}
 
-                <button type='submit'>Submit</button><br />
-            </form>
-        </div>
+                    <button type='submit'>Submit</button><br />
+                </form>
+
+            </div>
+            <Footer />
+        </>
     );
 };
 

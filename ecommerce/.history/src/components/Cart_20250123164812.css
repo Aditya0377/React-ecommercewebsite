@@ -1,0 +1,8 @@
+.main{
+    position: relative;
+}
+
+.ftr{
+    position: absolute;
+    bottom:0px;
+}

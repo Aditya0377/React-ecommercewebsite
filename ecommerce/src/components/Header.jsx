@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import "./Header.css"
 import { Link } from "react-router-dom"
 import { useState } from 'react'
-import Counter from './Counter'
+import { context } from '../App'
 const Header = () => {
 
     const [hide, sethide] = useState(true);
+
+    const context1 = useContext(context);
+
     const unhide = () => {
         sethide(!hide)
         console.log(hide)
@@ -23,11 +26,11 @@ const Header = () => {
             <div className={`nav ${hide ? 'shownav' : 'hidenav'}`}>
                 <div className="logo">ADISHOP</div>
                 <div className="menu">
-                    <Counter />
+
                     <ul>
 
                         <li>
-                            <Link to='/cart'>Cart</Link>
+                            <Link to='/cart'>Cart:{context1.count}</Link>
                         </li>
                         <li>
                             <Link to='/'>Home</Link>

@@ -1,0 +1,10 @@
+.main{
+    position: relative;
+    border: 1px solid black;
+    height: 100vh;
+}
+
+.ftr{
+    position: absolute;
+    bottom:0px;
+}
