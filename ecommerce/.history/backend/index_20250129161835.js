@@ -82,7 +82,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/school', {
+mongoose.connect('mongodb://localhost:27017/quickcart', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
